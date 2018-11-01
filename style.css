@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+
+body{
+  color:#333;
+}
+
+#page{
+  width:980px;
+  margin:0 auto;
+}
+/*ページヘッダー*/
+#pageHead #siteTitle{
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom:0;
+  font-family: 'Patrick Hand', cursive;
+}
+
+#pageHead #catchcopy{
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top:5px
+}
+/*メインカラム内の装飾*/
+
+#pageBodyMain p{
+  font-size:14px;
+  line-height: 1.429;
+}
+
+/*リスト*/
+
+#pageBodyMain ul li{
+  font-size:14px;
+  list-style-type: square;
+}
+
+/*ページボディ*/
+#pageBodyMain{
+  width:720px;
+  float:left;
+}
+
+#pageBodySub{
+  width:220px;
+  float:right;
+}
+
+#pageBody{
+  margin-top:30px;
+}
+
+#pageBody:after{
+  content:"";
+  clear:both;
+  display:block;
+}
+
+/*ページフッター*/
+#pageFoot #copyright{
+  font-size: 12px;
+  line-height: 1.5;
+
+}
+
+#pageFoot{
+  border-top: solid #CCC 1px;
+  margin-top: 15px;
+}
+
+
+/*　表　*/
+#pageBodyMain table{
+  font-size: 14px;
+  border:1px solid #CCC;
+  border-collapse:collapse;
+  width:100%;
+}
+
+#pageBodyMain table th, table td{
+  border:1px solid #CCC;
+  padding:5px 10px;
+}
+
+#pageBodyMain　table th{
+  background-color: #EEE;
+  text-align: left;
+}
+
+#pageBodyMain　table td{
+  text-align: left;
+  font-weight: bold;
+}
+
+#pageBodyMain　table caption{
+  font-weight: bold;
+  text-align: left;
+}
+
+/*図版*/
+figure{
+  margin:0;
+}
+/*画像キャプション*/
+#pageBodyMain figcaption{
+  font-size:12px;
+}
+
+/*見出し*/
+#pageBodyMain .pageTitle{
+  font-size:26px;
+  background-color: #F2F3E5;
+  padding:5px 15px;
+  margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #F9E281;
+	border-style:solid;
+	background:#F4C504;
+	color:#644602;
+	line-height:1.231;
+	font-weight:bold;
+}
+
+#pageBodyMain .heading-typeA{
+  font-size:18px;
+  color:#349FA6;
+  border-bottom: solid 1px #349FA6;
+  padding:5px;
+  margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #F9E281;
+	border-style:solid;
+	background:#F4C504;
+	color:#644602;
+	line-height:1.333;
+	font-weight:bold;
+
+}
+
+#pageBodyMain .heading-typeB{
+  font-size:16px;
+  border-left:solid 5px #E3E4D9;
+  padding-left:10px;
+  margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #F9E281;
+	border-style:solid;
+	background:#F4C504;
+	color:#644602;
+	line-height:1.375;
+	font-weight:bold;
+}
+
+#pageBodyMain .heading-typeC{
+  font-size:14px;
+  margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #F9E281;
+	border-style:solid;
+	background:#F4C504;
+	color:#644602;
+	line-height:1.429;
+	font-weight:bold;
+}
+
+/*区切り線　余白*/
+
+#pageBodyMain　.articleDetailHead{
+  border-bottom:solid 3px #CCC;
+  margin-bottom:30px;
+  padding-bottom:15px;
+}
+
+#pageBodyMain　.articleDetailFoot{
+  border-top:solid 3px #CCC;
+  margin-top:30px;
+  padding-top: 15px;
+}
+
+#pageBodyMain　.articleDetailBody section{
+  margin:30px  0;
+}
+
+#pageBodyMain　.creditUnit{
+  padding:10px;
+  border: solid 1px #CCC;
+}
+
+#pageBodyMain　.creditUnit p {
+  font-size:12px;
+  line-height: 1.5;
+}
+
+/*サブカラムの装飾*/
+
+#pageBodySub h2{
+  font-size:16px;
+  line-height: 1.375;
+  padding:5px;
+  margin-top: 0;
+  border-bottom: 1px solid #CCC;
+}
+
+/*お知らせ*/
+
+#pageBodySub .newsList ul{
+  list-style:none;
+  padding:0;
+}
+
+#pageBodySub .newsList ul li{
+  font-size: 12px;
+  line-height: 1.5;
+  margin:10px 5px;
+}
+
+#pageBodySub .newsList ul li time{
+  font-weight: bold;
+  display:block;
+}
